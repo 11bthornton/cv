@@ -2,3 +2,6 @@
 *.log
 *.out
 *.gz
+*.xdv
+*.fls
+*fdb*
