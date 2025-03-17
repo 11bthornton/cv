@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.3) (preloaded format=xelatex 2025.3.17)  17 MAR 2025 20:27
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.3) (preloaded format=xelatex 2025.3.17)  17 MAR 2025 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -303,67 +303,6 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
 (C:\Users\11bth\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\fontawesome
 symbols-generic.tex)
-
-! Package fontspec Error: 
-(fontspec)                The font "FontAwesome" cannot be found; this may
-(fontspec)                be but usually is not a fontspec bug. Either there
-(fontspec)                is a typo in the font name/file, the font is not
-(fontspec)                installed (correctly), or there is a bug in the
-(fontspec)                underlying font loading engine (XeTeX/luaotfload).
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.46 
-     
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-! Package fontspec Error: 
-(fontspec)                The font "FontAwesome" cannot be found; this may
-(fontspec)                be but usually is not a fontspec bug. Either there
-(fontspec)                is a typo in the font name/file, the font is not
-(fontspec)                installed (correctly), or there is a bug in the
-(fontspec)                underlying font loading engine (XeTeX/luaotfload).
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.46 
-     
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-! Package fontspec Error: 
-(fontspec)                The font "FontAwesome" cannot be found; this may
-(fontspec)                be but usually is not a fontspec bug. Either there
-(fontspec)                is a typo in the font name/file, the font is not
-(fontspec)                installed (correctly), or there is a bug in the
-(fontspec)                underlying font loading engine (XeTeX/luaotfload).
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.46 
-     
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
 (C:\Users\11bth\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\fontawesome
 symbols-xeluatex.tex))
 (C:\Users\11bth\AppData\Local\Programs\MiKTeX\tex/latex/sourcesanspro\sourcesan
@@ -901,27 +840,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
 \Hy@SectionHShift=\skip88
-)
-
-! LaTeX cmd Error: Command '\FA' already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.165 \newfontfamily
-                    \headerfont[
-
-You have used \NewDocumentCommand with a command that already has a
-definition.
-
-The existing definition of '\FA' will not be altered.
-
-
-)
+))
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 78.
-
-No file resume.aux.
+ (resume.aux)
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
@@ -944,6 +866,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1021,11 +944,9 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
 t line 78.
 Package hyperref Info: Link coloring OFF on input line 78.
+(resume.out) (resume.out)
 \@outlinefile=\write4
 \openout4 = `resume.out'.
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \headertextwidth=\skip89
 \headerphotowidth=\skip90
@@ -1041,27 +962,11 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 7.66417pt on input line 81.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.47441pt on input line 81.
-! Font TU/FontAwesome(0)/m/n/6.8=FontAwesome at 6.8pt not loadable: Metric (TFM
-) file or installed font not found.
-<to be read again> 
-                   relax 
-l.81 \makecvheader[C]
-                     
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-Missing character: There is no  in font nullfont!
-Missing character: There is no  in font nullfont!
-Missing character: There is no  in font nullfont!
-Missing character: There is no  in font nullfont!
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 84.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
 (Font)              scaled to size 9.0pt on input line 84.
-(resume/experience.tex
+ (resume/experience.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 16.0pt on input line 1.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
@@ -1092,16 +997,6 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 16.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/n' will be
 (Font)              scaled to size 9.0pt on input line 16.
-
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--31
-   [] 
- []
-
-
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 45--57
-   [] 
- []
-
 ) (resume/education.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/sc' will be
 (Font)              scaled to size 8.0pt on input line 16.
@@ -1110,38 +1005,31 @@ Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--29
    [] 
  []
 
-) (resume/skills.tex
-Overfull \hbox (22.2679pt too wide) in alignment at lines 3--20
-[] [] 
- []
-
 
 
 [1
 
-]) (resume/projects.tex)
+]) (resume/skills.tex
+Overfull \hbox (22.2679pt too wide) in alignment at lines 3--20
+[] [] 
+ []
+
+)
 
 [2] (resume.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package rerunfilecheck Warning: File `resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32439 strings out of 408640
- 652179 string characters out of 5744798
- 1240755 words of memory out of 5000000
- 55016 multiletter control sequences out of 15000+600000
- 561489 words of font info for 107 fonts, out of 8000000 for 9000
+ 32438 strings out of 408640
+ 652151 string characters out of 5744798
+ 1234353 words of memory out of 5000000
+ 55010 multiletter control sequences out of 15000+600000
+ 561505 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  131i,11n,135p,659b,516s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
