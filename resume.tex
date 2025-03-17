@@ -1,0 +1,107 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Original author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Modifications by:
+% Junhao Dong <junhao.dong96@gmail.com>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-skyblue}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\makeatletter
+\patchcmd{\@sectioncolor}{\color}{\mdseries\color}{}{}
+\makeatother
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[rectangle,edge,right]{profile}
+\name{Ben}{Thornton}
+\address{Staplehurst, Tonbridge}
+
+\mobile{+447428562974}
+\email{11bthornton@gmail.com}
+
+% \homepage{homepage}
+\github{11bthornton}
+\linkedin{ben-thornton-589763169}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+{\centering
+    \\[10pt]
+    {\footnotesize \textbf{MEng Computer Science (First Class Hons), with Dean's List Award.}} \\[10pt]
+    {\footnotesize Software Engineer, C\#, .NET \& Blazor, Rust \& WASM Enthusiast
+
+Highly adaptable Software Engineer with a strong background in .NET, Blazor, \textbf{CI/CD} pipelines and cloud infrastructure. Mathematically and scientifically inclined with experience in data science. Passionate about high-performance, real-time applications with personal projects in this domain.}
+}
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% \makecvfooter
+%   {\today}
+%   {Junhao Dong~~~·~~~Résumé}
+%   {\thepage}
+% {\footnotesize As a recent Master’s graduate in Computer Science with a passion for technology-driven solutions, I am eager to apply my existing skills and adapt them to C\#, .NET, and the stack Tribeca currently use. With experience in Agile workflows and a commitment to continuous learning, as demonstrated by my ability to turn my hand to the life-sciences in my last role as well as my natural flair for picking up new languages and technologies, I am enthusiastic about joining a dynamic team where I can further develop my software engineering skills and make a meaningful impact on projects that benefit the wider community. \\[10pt]}
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+\input{resume/experience.tex}
+\input{resume/education.tex}
+\input{resume/skills.tex}
+\input{resume/projects.tex}
+
+%-------------------------------------------------------------------------------
+\end{document}
