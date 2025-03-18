@@ -41,5 +41,3 @@ As long as you give appropriate credit and distribute contributions under the sa
 Special thanks to [Claud D. Park](http://www.posquit0.com) for creating and maintaining the original **Awesome CV** template.
 
 ---
-
-Feel free to contribute or modify this template to suit your needs!
